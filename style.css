@@ -1,0 +1,160 @@
+@import url('http://fonts.cdnfonts.com/css/kingthings-bloone');
+body{
+    margin:0;
+    padding:0;
+    background: #06031d;
+}
+html{
+    font-size:62.5%;
+    
+}
+
+/* Navbar styling */
+.navbar{
+    padding-top: 1.5rem;
+}
+.navbar2{
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+    font-weight: 600;
+}
+.makerow{
+    display: flex;
+    list-style-type: none;
+    column-gap: 1rem/* 16px */;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.5rem/* 24px */;
+}
+
+.btn{
+    --tw-bg-opacity: 1;
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+
+    background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    border-radius: 0.5rem/* 8px */;
+    color: #fff;
+}
+.btn1{
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    border-radius: 0.5rem/* 8px */;
+    color: #fff;
+}
+.bday{
+margin-top:8.0rem;
+text-align:center;
+background:linear-gradient(180deg,#f80112 0%,#2602f5 110%);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+cursor:pointer;
+font-size:6.0rem;
+font-family: 'Kingthings Bloone!', sans-serif;
+}
+.name{
+padding-right:10.0rem;
+margin-left:15.0rem;
+    margin-top:6.0rem;
+    text-align:center;
+    justify-content: center;
+    background:linear-gradient(180deg,#f80112,#2602f5 110%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    cursor:pointer;
+    font-size:10.0rem;
+    font-family: 'Kingthings Bloone!', sans-serif;
+    display:inline-block;
+}
+.name:hover{
+    -webkit-box-reflect:below -.8rem -webkit-gradient(linear,right top,right bottom,from(transparent),color-stop(85%,transparent),to(rgba(42,99,99,1)));
+}
+.wrapper{
+    position:relative;
+    width:32.0rem;
+    margin:15.0rem auto;
+    perspective:100.0rem;
+    margin-bottom:50.0rem;
+}
+.img-area{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style:preserve-3d;
+    transform:rotateY(-360deg) translateZ(-30.0rem);
+    animation:animate 25s steps(1000,end) infinite;
+}
+.single-img{
+    position: absolute;
+    width:20.0rem;
+    height:30.0rem;
+    top:1.0rem;
+    left:1.0rem;
+}
+.single-img img{
+    width:20.0rem;
+    height:30.0rem;
+    border:.5rem solid #fff;
+}
+.single-img.img-one{
+    transform: rotateY(0deg) translateZ(30.0rem);
+}
+.single-img.img-two{
+    transform: rotateY(60deg) translateZ(30.0rem);
+}
+.single-img.img-three{
+        transform: rotateY(120deg) translateZ(30.0rem);
+}
+.single-img.img-four{
+        transform: rotateY(180deg) translateZ(30.0rem);
+}
+.single-img.img-five{
+        transform: rotateY(240deg) translateZ(30.0rem);
+}
+.single-img.img-six{
+        transform: rotateY(300deg) translateZ(30.0rem);
+}
+img{
+    filter:grayscale(90%);
+    transition: 1s;
+    cursor:pointer;
+}
+img:hover{
+    transition:1s;
+    filter:grayscale(0);
+}
+@keyframes animate{
+from{
+transform:rotateY(-360deg);
+}
+to{
+    transform: rotateY(0deg);
+}
+}
+@font-face{
+    font-family: 'Kingthings Bloone!', sans-serif;
+    src:url(bday.ttf);
+}
+
+/*header responsive code*/
+@media(max-width:300px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:100px){
+    html{
+        font-size:45%;
+    }
+}
