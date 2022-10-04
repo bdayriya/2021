@@ -8,59 +8,14 @@ html{
     font-size:62.5%;
     
 }
-
-/* Navbar styling */
-.navbar{
-    padding-top: 1.5rem;
-}
-.navbar2{
-    font-size: 1.875rem/* 30px */;
-    line-height: 2.25rem/* 36px */;
-    font-weight: 600;
-}
-.makerow{
-    display: flex;
-    list-style-type: none;
-    column-gap: 1rem/* 16px */;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1.5rem/* 24px */;
-}
-
-.btn{
-    --tw-bg-opacity: 1;
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-
-    background-color: rgb(153 27 27 / var(--tw-bg-opacity));
-
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    padding-top: 0.5rem/* 8px */;
-    padding-bottom: 0.5rem/* 8px */;
-    padding-left: 1rem/* 16px */;
-    padding-right: 1rem/* 16px */;
-    border-radius: 0.5rem/* 8px */;
-    color: #fff;
-}
-.btn1{
-    --tw-bg-opacity: 1;
-    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    padding-top: 0.5rem/* 8px */;
-    padding-bottom: 0.5rem/* 8px */;
-    padding-left: 1rem/* 16px */;
-    padding-right: 1rem/* 16px */;
-    border-radius: 0.5rem/* 8px */;
-    color: #fff;
-}
 .bday{
-margin-top:8.0rem;
+margin-top:5.0rem;
 text-align:center;
 background:linear-gradient(180deg,#f80112 0%,#2602f5 110%);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 cursor:pointer;
-font-size:6.0rem;
+font-size:5.0rem;
 font-family: 'Kingthings Bloone!', sans-serif;
 }
 .name{
@@ -68,12 +23,11 @@ padding-right:10.0rem;
 margin-left:15.0rem;
     margin-top:6.0rem;
     text-align:center;
-    justify-content: center;
     background:linear-gradient(180deg,#f80112,#2602f5 110%);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     cursor:pointer;
-    font-size:10.0rem;
+    font-size:8.0rem;
     font-family: 'Kingthings Bloone!', sans-serif;
     display:inline-block;
 }
